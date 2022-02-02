@@ -1,5 +1,9 @@
 name: Install Deck
+author: gpuliyar
 description: Install Kong Gateway CLI Deck
+branding:
+  icon: git-pull-request
+  color: blue
 inputs:
   version:
     description: Kong Deck CLI Version to install
