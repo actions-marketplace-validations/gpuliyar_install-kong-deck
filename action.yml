@@ -1,7 +1,7 @@
 name: Install Deck
 description: Install Kong Gateway CLI Deck
 inputs:
-  version:  # id of input
+  version:
     description: Kong Deck CLI Version to install
     required: true
 runs:
