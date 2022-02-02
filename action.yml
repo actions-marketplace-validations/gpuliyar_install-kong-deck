@@ -5,7 +5,7 @@ inputs:
     description: Kong Deck CLI Version to install
     required: true
 runs:
-  using: "composite"
+  using: composite
   steps:
     - run: |
         curl -sL https://github.com/kong/deck/releases/download/v${{ inputs.version }}/deck_${{ inputs.version }}_linux_amd64.tar.gz -o deck.tar.gz
